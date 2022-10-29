@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        EGATOR
+        PERSONAL PROFILE
       </a>
       <ul className="permalinks">
         <li>
@@ -43,7 +43,10 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials. All rights reserved.</small>
+        <small>
+          &copy; 2022, The content is protected and cannot be reused without
+          prior permission. All rights reserved.
+        </small>
       </div>
     </footer>
   );

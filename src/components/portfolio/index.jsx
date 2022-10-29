@@ -1,6 +1,7 @@
 import React from "react";
 import IMG1 from "../../assets/portfolio.jpg";
-
+import IMG2 from "../../assets/medgami.PNG";
+import IMG3 from "../../assets/crypto.PNG";
 import "./style.css";
 
 const Portfolio = () => {
@@ -23,7 +24,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://github.com/ShubhamMahaseth/Food_Ordering_App_ReactNative"
+              href="https://drive.google.com/file/d/1CCVwEQZuMZ5vDWLRIakwr58evuaet32o/view"
               className="btn btn-primary"
               target="_blank"
             >
@@ -33,19 +34,19 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image"></div>
-          <img src={IMG1} alt="error" className="image-wrapper" />
-          <h3>This is a portfolio item title</h3>
+          <img src={IMG2} alt="error" className="image-wrapper" />
+          <h3>This is a portfolio item title.</h3>
           <div className="portfolio__item-cta">
             {" "}
             <a
-              href="https://github.com/ShubhamMahaseth/Food_Ordering_App_ReactNative"
+              href="https://play.google.com/store/apps/details?id=com.epc.medgami"
               className="btn"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://github.com/ShubhamMahaseth/Food_Ordering_App_ReactNative"
+              href="https://play.google.com/store/apps/details?id=com.epc.medgami"
               className="btn btn-primary"
               target="_blank"
             >
@@ -55,19 +56,19 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image"></div>
-          <img src={IMG1} alt="error" className="image-wrapper" />
+          <img src={IMG3} alt="error" className="image-wrapper" />
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
             {" "}
             <a
-              href="https://github.com/ShubhamMahaseth/Food_Ordering_App_ReactNative"
+              href="https://github.com/ShubhamMahaseth/CryptoTracker"
               className="btn"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://github.com/ShubhamMahaseth/Food_Ordering_App_ReactNative"
+              href="https://github.com/ShubhamMahaseth/CryptoTracker"
               className="btn btn-primary"
               target="_blank"
             >

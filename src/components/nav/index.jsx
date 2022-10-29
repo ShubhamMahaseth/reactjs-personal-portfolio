@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import { AiOutlineHome, AiOutlineUser, AiOutlineMessage } from "react-icons/ai";
 import { BsBook } from "react-icons/bs";
+import { FaEllipsisH } from "react-icons/fa";
 import { MdOutlineHomeRepairService } from "react-icons/md";
 import "./style.css";
 
 const Nav = () => {
   const [active, setActive] = useState("#");
+
+  // window.addEventListener("scroll", scrolled);
+
+  // function scrolled() {
+  //   let el = document.getElementById("portfolio");
+  //   console.log(el);
+  // }
+
   return (
     <nav>
       <a

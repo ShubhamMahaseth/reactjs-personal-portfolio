@@ -17,27 +17,31 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            <a href="#experience" className="about__card">
               <FiAward className="about__icon" />
               <h5>Experience</h5>
               <small>1.3+ years Working</small>
-            </article>
+            </a>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
             </article>
-            <article className="about__card">
+
+            <a href="#portfolio" className="about__card">
               <VscFolderActive className="about__icon" />
               <h5>Projects</h5>
               <small>80+ completed</small>
-            </article>
+            </a>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-            rem? Voluptates culpa accusantium iure provident asperiores possimus
-            consequatur impedit soluta, fugiat ut? Sequi in inventore temporibus
-            voluptatum dolorem ut numquam!
+            I am currently working in Nagarro as mobile developer have
+            experience of 1.3+ years in React Native, delivered high performance
+            functionality and buttery smooth UI application to the client,
+            ability to write well-documented clean code, quickly grasp new
+            technologies and approach. I believe the skillset & experience I
+            possess not only bring value to an organization, but in turn shall
+            also help me to acquire experience & sharpen my skills.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
