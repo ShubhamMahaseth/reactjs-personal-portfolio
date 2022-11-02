@@ -1,10 +1,30 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "emailjs-com";
+import Snackbar from "@mui/material/Snackbar";
+import MuiAlert from "@mui/material/Alert";
 import "./style.css";
 
+const Alert = React.forwardRef(function Alert(props, ref) {
+  return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
+});
+
 const Contact = () => {
+  const [open, setOpen] = useState(false);
+
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+
+    setOpen(false);
+  };
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -25,6 +45,7 @@ const Contact = () => {
         }
       );
     e.target.reset();
+    handleClick();
   };
   return (
     <section id="contact">
@@ -72,6 +93,11 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Snackbar open={open} autoHideDuration={3000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity="success" sx={{ width: "100%" }}>
+          Message sent!
+        </Alert>
+      </Snackbar>
     </section>
   );
 };
