@@ -22,8 +22,9 @@ header {
   width: 22rem;
   height: 30rem;
   position: absolute;
+  margin: 4.5rem 10px 0 0;
+
   left: calc(50% - 11rem);
-  margin: 4.3rem 10px 0 0;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
@@ -43,12 +44,19 @@ header {
   header {
     height: 68vh;
   }
+  .me {
+    margin: 0.9rem 10px 0 0;
+  }
 }
 
 /* ============================================== MEDIA QUERIES (SMALL DEVICES) ============================================ */
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+  }
+
+  .me {
+    margin: 2.5rem 10px 0 0;
   }
 
   .scroll_down {
