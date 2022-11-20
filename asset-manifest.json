@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/reactjs-personal-portfolio/static/css/main.d532b07b.css",
-    "main.js": "/reactjs-personal-portfolio/static/js/main.a723f16b.js",
+    "main.js": "/reactjs-personal-portfolio/static/js/main.6d33993b.js",
     "static/js/787.f3554d14.chunk.js": "/reactjs-personal-portfolio/static/js/787.f3554d14.chunk.js",
     "static/media/medgami.PNG": "/reactjs-personal-portfolio/static/media/medgami.d836618b61b3abb9158a.PNG",
     "static/media/crypto.PNG": "/reactjs-personal-portfolio/static/media/crypto.53a4304a2364dac74458.PNG",
     "static/media/personal_Image.png": "/reactjs-personal-portfolio/static/media/personal_Image.119c44e5695563c033c7.png",
-    "static/media/Shubham_Mahaseth-RESUME.pdf": "/reactjs-personal-portfolio/static/media/Shubham_Mahaseth-RESUME.cea6279b3b72b6d04618.pdf",
+    "static/media/Shubham_Mahaseth-RESUME.pdf": "/reactjs-personal-portfolio/static/media/Shubham_Mahaseth-RESUME.8de63ec2af979bee8512.pdf",
     "static/media/portfolio.jpg": "/reactjs-personal-portfolio/static/media/portfolio.5d068932033ad0132b2a.jpg",
     "static/media/me-about.jpg": "/reactjs-personal-portfolio/static/media/me-about.1b3ad60a598ab9d6ecd2.jpg",
     "index.html": "/reactjs-personal-portfolio/index.html",
     "main.d532b07b.css.map": "/reactjs-personal-portfolio/static/css/main.d532b07b.css.map",
-    "main.a723f16b.js.map": "/reactjs-personal-portfolio/static/js/main.a723f16b.js.map",
+    "main.6d33993b.js.map": "/reactjs-personal-portfolio/static/js/main.6d33993b.js.map",
     "787.f3554d14.chunk.js.map": "/reactjs-personal-portfolio/static/js/787.f3554d14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d532b07b.css",
-    "static/js/main.a723f16b.js"
+    "static/js/main.6d33993b.js"
   ]
 }
